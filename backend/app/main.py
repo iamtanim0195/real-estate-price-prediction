@@ -9,7 +9,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://real-estate-price-prediction-dun.vercel.app",  # deployed frontend
+        "https://real-estate-frontend-jet-three.vercel.app/",  # deployed frontend
         "http://localhost:3000"  # local development
     ],
     allow_credentials=True,
