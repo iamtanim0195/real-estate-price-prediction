@@ -8,7 +8,7 @@ app = FastAPI()
 # Allow CORS for frontend (replace with your frontend URL)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=["https://real-estate-price-prediction-dun.vercel.app/"],
     allow_methods=["POST"]
 )
 
